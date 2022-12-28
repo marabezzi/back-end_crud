@@ -22,7 +22,7 @@ public class CrudBackendApplication {
 			
 			Course c = new Course();
 			c.setName("Angular com Spring");
-			c.setCategory("fornt-end");
+			c.setCategory("front-end");
 			
 			courseRepository.save(c);
 		};
